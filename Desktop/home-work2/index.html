@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson03</title>
+
+</head>
+<body>
+	<script> 
+
+		var age = prompt(`сколько тебе лет`)
+
+        if ((age % 10 >= 5 && age % 10 <= 9) || (age % 10 == 0) || (age % 100 >=11 && age % 100 <= 14 )){
+          alert(`${age} лет`)
+	    }
+	    else if (age % 10 >=2 && age % 10<=4 ) {
+	    	alert(`${age} года`)
+       }
+        else if (age % 10 ==1){ 
+      	alert(`${age} год`)
+       }
+
+	</script>
+</body>
+</html>
